@@ -13,7 +13,7 @@
         </div>
     <div class="not" v-for="(item, i) in items" :key="item._id">
       <div class="post-column">
-       /* <input class="edit-column" v-if="isSelected(item)" v-model="editedDescription" />
+       <input class="edit-column" v-if="isSelected(item)" v-model="editedDescription" />
         <p v-else class="column">
           {{ i + 1 }}
         {{ item.description }}
