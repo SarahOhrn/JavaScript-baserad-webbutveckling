@@ -1,0 +1,80 @@
+    body {
+        width: 100%;
+        min-height: 100vh;
+        background-color: bisque;
+    }
+    
+    #app {
+        margin: auto;
+        margin-top: 3rem;
+        max-width: 700px;
+    }
+    
+    .header-section {
+        width: 100%;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 2.8em;
+        text-decoration: underline;
+        color: darkgoldenrod;
+        padding: 0;
+        margin: 0;
+    }
+    
+    img {
+        display: block;
+        width: 30%;
+        margin: auto;
+        padding: 0;
+    }
+    
+    hr {
+        width: 60%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    
+    .input-form {
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .input-form input[type=text] {
+        flex: auto;
+        display: block;
+        padding: 1.5%;
+        margin: auto;
+        margin-right: 1%;
+        outline: none;
+    }
+    
+    button a:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    
+    .not {
+        width: 100%;
+        margin: 2%;
+    }
+    
+    .post-column {
+        text-align: center;
+        margin-top: 5%;
+    }
+    
+    #icons {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .icon-field-remove {
+        margin-bottom: 3%;
+    }
+    
+    .material-icons {
+        cursor: pointer;
+    }
